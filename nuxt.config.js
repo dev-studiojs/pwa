@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Gerard Daniels',
+    title: 'Plant Wash Australia',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -20,17 +20,17 @@ export default {
       {
         hid: 'twitter:url',
         name: 'twitter:url',
-        content: 'https://www.gerard-daniels.com/'
+        content: 'https://www.plantwash.com.au/'
       },
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'Gerard Daniels'
+        content: 'Plant Wash Australia'
       },
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: 'The Blog of Rizal Renaldi'
+        content: 'Plant Wash Australia'
       },
       {
         hid: 'twitter:image',
@@ -45,18 +45,18 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://www.gerard-daniels.com/'
+        content: 'https://www.plantwash.com.au/'
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Gerard Daniels'
+        content: 'Plant Wash Australia'
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'Gerard Daniels'
+          'Plant Wash Australia'
       },
       {
         hid: 'og:image',
@@ -71,7 +71,7 @@ export default {
       {
         hid: 'og:image:alt',
         property: 'og:image:alt',
-        content: 'Gerard Daniels'
+        content: 'Plant Wash Australia'
       }
     ],
     link: [
@@ -79,7 +79,7 @@ export default {
       {
         hid: 'canonical',
         rel: 'canonical',
-        href: `https://www.gerard-daniels.com/`
+        href: `https://www.plantwash.com.au/`
       }
     ],
     script: [
@@ -100,25 +100,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '~/plugins/vue-tiny-slider.js', mode: 'client' },
-    // { src: '~/plugins/gtag'},
-    // { src: '~/plugins/v-tooltip.js', mode: 'client' },
-    // { src: '~~/node_modules/vue-rellax/lib/nuxt-plugin', ssr: false },
-    // { src: '~/plugins/vue-rellax.js', ssr: false },
-    // { src: '~/plugins/scrollama.client.js', mode: 'client' },
-    // { src: '~/plugins/vue-plyr', mode: 'client' },
-    // { src: '~/plugins/vue-image-compare', mode: 'client', ssr: false },
-    // { src: '~/plugins/v-dropdown', ssr: false },
-    // { src: '~/plugins/vue-select', ssr: false },
-    // { src: '~/plugins/directives', mode: 'client' },
-    // { src: "~/plugins/vue-infinite-loading", mode: "client" },
   ],
-  // { src: '~/plugins/vee-validate', ssr: false },
-
-  // purgeCSS: {
-  //   whitelist: () => whitelister([
-  //     './node_modules/sal.js/dist/sal.css'   
-  //   ])
-  // },
  
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -128,10 +110,6 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@aceforth/nuxt-optimized-images',
-    // '@nuxtjs/composition-api/module',
-    // '@nuxtjs/color-mode',
-    // '@/modules/generator'
-    // '@nuxtjs/google-analytics',
   ],
 
  
@@ -152,7 +130,7 @@ export default {
   modules: [
     '@nuxt/content',
     'nuxt-webfontloader',
-    '@nuxtjs/sitemap'
+    // '@nuxtjs/sitemap'
     // 'nuxt-lazy-load',
     // 'nuxt-history-state'
     // ['nuxt-vue-select', {
@@ -167,15 +145,15 @@ export default {
     classSuffix: ''
   },
 
-  sitemap: {
-    hostname: 'https://www.gerard-daniels.com/',
-    gzip: true,
-    defaults: {
-      changefreq: 'daily',
-      priority: 1,
-      lastmod: new Date(),
-    },
-  },
+  // sitemap: {
+  //   hostname: 'https://www.plantwash.com.au/',
+  //   gzip: true,
+  //   defaults: {
+  //     changefreq: 'daily',
+  //     priority: 1,
+  //     lastmod: new Date(),
+  //   },
+  // },
 
 
   // content: {

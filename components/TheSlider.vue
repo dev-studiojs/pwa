@@ -1,101 +1,111 @@
 <template>
-<div class="mt-10">
-    <div class="grid grid-cols-12">
+<div class="">
+    <div class="w-full grid grid-cols-12">
         <div class="col-start-1 lg:col-start-1 col-span-full relative">
             <client-only>
                 <vue-tiny-slider v-bind="tinySliderOptions" id="center" class="flex">
-                    <div class="w-1/2 h-80 p-2">
+                    <div class="w-1/2 slider-item p-2">
                         <NuxtLink to="/" class="group slider-box drag-none">
-                            <h3 class="relative z-10 font-sans text-white text-sm tracking-wider">Executive Search</h3>
-                            <img :src="require(`~/assets/images/sector1.jpeg`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
+                            <h3 class="relative z-10 font-bold text-3xl text-white">Minesite Equipment Washing</h3>
+                            <img :src="require(`~/assets/images/1.png`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
                             <div class="w-full h-full bg-black bg-opacity-25 absolute inset-0 z-0"></div>
                         </NuxtLink>
                     </div>
-                    <div class="w-1/2 h-80 p-2">
+                    <div class="w-1/2 slider-item p-2">
                         <NuxtLink to="/" class="slider-box drag-none">
-                            <h3 class="relative z-10 font-sans text-white text-sm tracking-wider">Chair and non-executive director search</h3>
-                            <img :src="require(`~/assets/images/sector2.jpeg`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
+                            <h3 class="relative z-10 font-bold text-3xl text-white">Aircraft & Transportation</h3>
+                            <img :src="require(`~/assets/images/2.png`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
                             <div class="w-full h-full bg-black bg-opacity-25 absolute inset-0 z-0"></div>
                         </NuxtLink>
                     </div>
-                    <div class="w-1/2 h-80 p-2">
+                    <div class="w-1/2 slider-item p-2">
                         <NuxtLink to="/" class="slider-box drag-none">
-                            <h3 class="relative z-10 font-sans text-white text-sm tracking-wider">Succesion Planning and Internal Candidate Assessment</h3>
-                            <img :src="require(`~/assets/images/sector3.jpeg`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
+                            <h3 class="relative z-10 font-bold text-3xl text-white">Hydroscaling</h3>
+                            <img :src="require(`~/assets/images/3.png`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
                             <div class="w-full h-full bg-black bg-opacity-25 absolute inset-0 z-0"></div>
                         </NuxtLink>
                     </div>
-                    <div class="w-1/2 h-80 p-2">
+                    <div class="w-1/2 slider-item p-2">
                         <NuxtLink to="/" class="slider-box drag-none">
-                            <h3 class="relative z-10 font-sans text-white text-sm tracking-wider">Executive Search</h3>
-                            <img :src="require(`~/assets/images/sector1.jpeg`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
+                            <h3 class="relative z-10 font-bold text-3xl text-white">General High Pressure Waching</h3>
+                            <img :src="require(`~/assets/images/4.png`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
                             <div class="w-full h-full bg-black bg-opacity-25 absolute inset-0 z-0"></div>
                         </NuxtLink>
                     </div>
-                    <div class="w-1/2 h-80 p-2">
+                    <div class="w-1/2 slider-item p-2">
                         <NuxtLink to="/" class="slider-box drag-none">
-                            <h3 class="relative z-10 font-sans text-white text-sm tracking-wider">Executive Search</h3>
-                            <img :src="require(`~/assets/images/sector2.jpeg`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
+                            <h3 class="relative z-10 font-bold text-3xl text-white">Aircraft & Transportation</h3>
+                            <img :src="require(`~/assets/images/5.png`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
                             <div class="w-full h-full bg-black bg-opacity-25 absolute inset-0 z-0"></div>
                         </NuxtLink>
                     </div>
-                    <div class="w-1/2 h-80 p-2">
+                    <div class="w-1/2 slider-item p-2">
                         <NuxtLink to="/" class="slider-box drag-none">
-                            <h3 class="relative z-10 font-sans text-white text-sm tracking-wider">Executive Search</h3>
-                            <img :src="require(`~/assets/images/sector3.jpeg`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
+                            <h3 class="relative z-10 font-bold text-3xl text-white">Hydroscaling</h3>
+                            <img :src="require(`~/assets/images/1.png`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
                             <div class="w-full h-full bg-black bg-opacity-25 absolute inset-0 z-0"></div>
                         </NuxtLink>
                     </div>
-                    <div class="w-1/2 h-80 p-2">
+                    <div class="w-1/2 slider-item p-2">
                         <NuxtLink to="/" class="slider-box drag-none">
-                            <h3 class="relative z-10 font-sans text-white text-sm tracking-wider">Executive Search</h3>
-                            <img :src="require(`~/assets/images/sector1.jpeg`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
+                            <h3 class="relative z-10 font-bold text-3xl text-white">General High Pressure Waching</h3>
+                            <img :src="require(`~/assets/images/2.png`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
                             <div class="w-full h-full bg-black bg-opacity-25 absolute inset-0 z-0"></div>
                         </NuxtLink>
                     </div>
-                    <div class="w-1/2 h-80 p-2">
-                        <NuxtLink to="/" class="slider-box drag-none">
-                            <h3 class="relative z-10 font-sans text-white text-sm tracking-wider">Executive Search</h3>
-                            <img :src="require(`~/assets/images/sector2.jpeg`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
-                            <div class="w-full h-full bg-black bg-opacity-25 absolute inset-0 z-0"></div>
-                        </NuxtLink>
-                    </div>
-                    <div class="w-1/2 h-80 p-2">
-                        <NuxtLink to="/" class="slider-box drag-none">
-                            <h3 class="relative z-10 font-sans text-white text-sm tracking-wider">Executive Search</h3>
-                            <img :src="require(`~/assets/images/sector3.jpeg`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
-                            <div class="w-full h-full bg-black bg-opacity-25 absolute inset-0 z-0"></div>
-                        </NuxtLink>
-                    </div>
-                    <div class="w-1/2 h-80 p-2">
+              
+                    <div class="w-1/2 slider-item p-2">
                         <NuxtLink to="/" class="slider-box bg-white drag-none">
-                            <!-- <h3 class="relative z-10 font-sans text-white text-sm tracking-wider">Executive Search</h3>
+                            <!-- <h3 class="relative z-10 font-bold text-3xl text-white">Executive Search</h3>
                             <img :src="require(`~/assets/images/sector3.jpeg`)" alt="service" class="select-none drag-none absolute bottom-0 absolute-center-x z-0 w-full h-full object-cover object-center">
                             <div class="w-full h-full bg-black bg-opacity-25 absolute inset-0 z-0"></div> -->
                         </NuxtLink>
                     </div>
                     
                 </vue-tiny-slider>
-                <div class="grid grid-cols-12 items-center my-6">
-                    <ul id="customize-controls" class="customize-controls col-start-1 flex items-center px-2">
-                        <li><BtnArrowLeft/></li>
-                        <li><BtnArrowRight/></li>
-                        <!-- <li class="transition duration-200 flex-shrink-0 mr-1 button-control bg-gd-yellow-light hover:bg-gd-yellow text-gd-neutral-dark text-opacity-30 hover:text-opacity-100 prev">
-                            <svg class="w-4 h-4" width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.875 0.828125L11.8125 1.71875C12 1.95312 12 2.32812 11.8125 2.51562L3.32812 11L11.8125 19.5312C12 19.7188 12 20.0938 11.8125 20.3281L10.875 21.2188C10.6406 21.4531 10.3125 21.4531 10.0781 21.2188L0.234375 11.4219C0.046875 11.1875 0.046875 10.8594 0.234375 10.625L10.0781 0.828125C10.3125 0.59375 10.6406 0.59375 10.875 0.828125Z" fill="currentColor"/>
+                <div class="max-w-6xl mx-auto px-8 lg:px-0">
+                    <ul id="customize-controls" class="customize-controls max-w-sm flex items-center justify-between">
+                        <li class="text-brand">
+                            <svg width="57" height="26" viewBox="0 0 57 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.934 1.72954L2.71581 11.5625C2.59069 11.6959 2.48661 11.8433 2.40356 12H56.9998V14H2.40356C2.48661 14.1566 2.59069 14.304 2.71581 14.4375L11.934 24.2704L10.5661 25.7295L1.34794 15.8966C-0.151788 14.2968 -0.151788 11.7031 1.34794 10.1034L10.5661 0.270447L11.934 1.72954Z" fill="currentColor"/>
                             </svg>
                         </li>
-                        <li class="transition duration-200 flex-shrink-0 button-control bg-gd-yellow-light hover:bg-gd-yellow hover:text-opacity-100 text-gd-neutral-dark next">
-                            <svg class="w-4 h-4" width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.07812 21.2188L0.140625 20.3281C-0.046875 20.0937 -0.046875 19.7187 0.140625 19.5312L8.625 11.0469L0.140628 2.51562C-0.0468719 2.32812 -0.0468719 1.95312 0.140628 1.71875L1.07813 0.828125C1.3125 0.59375 1.64063 0.59375 1.875 0.828125L11.7188 10.625C11.9063 10.8594 11.9063 11.1875 11.7188 11.4219L1.875 21.2188C1.64062 21.4531 1.3125 21.4531 1.07812 21.2188Z" fill="currentColor"/>
-                            </svg>
-                        </li> -->
-                    <NuxtLink to="/" class="group select-none ml-8 font-sans text-sm whitespace-nowrap flex items-center">View all
-                        <svg class="transition duration-200 transform group-hover:translate-x-1 ml-2 w-1.5" width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.818181 15.8644L0.106719 15.1774C-0.0355731 14.9966 -0.0355731 14.7073 0.106719 14.5627L6.54545 8.01808L0.106722 1.43729C-0.0355708 1.29266 -0.0355707 1.00339 0.106722 0.822599L0.818184 0.135593C0.99605 -0.0451978 1.24506 -0.0451977 1.42293 0.135593L8.89328 7.69266C9.03557 7.87345 9.03557 8.12656 8.89328 8.30735L1.42292 15.8644C1.24506 16.0452 0.996047 16.0452 0.818181 15.8644Z" fill="#3A3228"/>
-                        </svg>
 
-                    </NuxtLink>
+                        <li class="text-brand">
+                          <svg width="57" height="26" viewBox="0 0 57 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M45.0648 1.72954L54.283 11.5625C54.4081 11.6959 54.5122 11.8433 54.5953 12H-0.000976562V14H54.5953C54.5122 14.1566 54.4081 14.304 54.283 14.4375L45.0648 24.2704L46.4327 25.7295L55.6509 15.8966C57.1506 14.2968 57.1506 11.7031 55.6509 10.1034L46.4327 0.270447L45.0648 1.72954Z" fill="currentColor"/>
+                            </svg>
+                        </li>
+                    </ul>
+                    <ul id="custom-nav" class="flex items-center">
+                        <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.25" d="M0.72841 7.75736C-0.242152 6.7868 -0.242152 5.2132 0.72841 4.24264L4.24313 0.727922C5.21369 -0.242641 6.78728 -0.242641 7.75785 0.727922L11.2726 4.24264C12.2431 5.2132 12.2431 6.7868 11.2726 7.75736L7.75785 11.2721C6.78728 12.2426 5.21369 12.2426 4.24313 11.2721L0.72841 7.75736Z" fill="#8E95AC"/>
+                        </svg>
+                        </li>
+                        <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.25" d="M0.72841 7.75736C-0.242152 6.7868 -0.242152 5.2132 0.72841 4.24264L4.24313 0.727922C5.21369 -0.242641 6.78728 -0.242641 7.75785 0.727922L11.2726 4.24264C12.2431 5.2132 12.2431 6.7868 11.2726 7.75736L7.75785 11.2721C6.78728 12.2426 5.21369 12.2426 4.24313 11.2721L0.72841 7.75736Z" fill="#8E95AC"/>
+                        </svg>
+                        </li>
+                        <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.25" d="M0.72841 7.75736C-0.242152 6.7868 -0.242152 5.2132 0.72841 4.24264L4.24313 0.727922C5.21369 -0.242641 6.78728 -0.242641 7.75785 0.727922L11.2726 4.24264C12.2431 5.2132 12.2431 6.7868 11.2726 7.75736L7.75785 11.2721C6.78728 12.2426 5.21369 12.2426 4.24313 11.2721L0.72841 7.75736Z" fill="#8E95AC"/>
+                        </svg>
+                        </li>
+                        <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.25" d="M0.72841 7.75736C-0.242152 6.7868 -0.242152 5.2132 0.72841 4.24264L4.24313 0.727922C5.21369 -0.242641 6.78728 -0.242641 7.75785 0.727922L11.2726 4.24264C12.2431 5.2132 12.2431 6.7868 11.2726 7.75736L7.75785 11.2721C6.78728 12.2426 5.21369 12.2426 4.24313 11.2721L0.72841 7.75736Z" fill="#8E95AC"/>
+                        </svg>
+                        </li>
+                        <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.25" d="M0.72841 7.75736C-0.242152 6.7868 -0.242152 5.2132 0.72841 4.24264L4.24313 0.727922C5.21369 -0.242641 6.78728 -0.242641 7.75785 0.727922L11.2726 4.24264C12.2431 5.2132 12.2431 6.7868 11.2726 7.75736L7.75785 11.2721C6.78728 12.2426 5.21369 12.2426 4.24313 11.2721L0.72841 7.75736Z" fill="#8E95AC"/>
+                        </svg>
+                        </li>
+                        <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.25" d="M0.72841 7.75736C-0.242152 6.7868 -0.242152 5.2132 0.72841 4.24264L4.24313 0.727922C5.21369 -0.242641 6.78728 -0.242641 7.75785 0.727922L11.2726 4.24264C12.2431 5.2132 12.2431 6.7868 11.2726 7.75736L7.75785 11.2721C6.78728 12.2426 5.21369 12.2426 4.24313 11.2721L0.72841 7.75736Z" fill="#8E95AC"/>
+                        </svg>
+                        </li>
+                        <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.25" d="M0.72841 7.75736C-0.242152 6.7868 -0.242152 5.2132 0.72841 4.24264L4.24313 0.727922C5.21369 -0.242641 6.78728 -0.242641 7.75785 0.727922L11.2726 4.24264C12.2431 5.2132 12.2431 6.7868 11.2726 7.75736L7.75785 11.2721C6.78728 12.2426 5.21369 12.2426 4.24313 11.2721L0.72841 7.75736Z" fill="#8E95AC"/>
+                        </svg>
+                        </li>
                     </ul>
                 </div>
             </client-only>
@@ -110,13 +120,14 @@ export default {
         return {
             tinySliderOptions: {
                 "controlsContainer": "#customize-controls",
+                "navContainer": "#custom-nav",
                 "mouseDrag": true,
                 "items": 1,
                 "center": false,
                 "loop": false,
                 "gutter": 0,
                 "edgePadding": 80,
-                "fixedWidth": 330,
+                "fixedWidth": 300,
                 "controls": true,
                 "navPosition": "bottom",
                 "controlsPosition": "bottom",
@@ -142,35 +153,38 @@ export default {
 } */
 
 .slider-box {
-    @apply relative p-8 rounded-lg transform transition duration-200 flex items-end justify-start w-full h-full overflow-hidden hover:-translate-y-2 hover:shadow-xl uppercase;
+    @apply relative p-8 rounded-3xl transform transition duration-200 flex items-end justify-start w-full h-full overflow-hidden hover:-translate-y-2 hover:shadow-xl;
+}
+.slider-item {
+    height: 428px;
 }
 .button-control {
     @apply cursor-pointer w-10 h-10 rounded-md flex items-center justify-center;
 }
 
  #center-iw {
-        margin: 0 calc(100vw / 6)!important;
+        margin: 0 calc(100vw / 15)!important;
     }
     .customize-controls {
-        margin-left: calc(100vw / 6);
+        margin-left: calc(100vw / 15);
     }
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
    #center-iw {
-        margin: 0 calc(100vw / 8)!important;
+        margin: 0 calc(100vw / 15)!important;
     }
     .customize-controls {
-        margin-left: calc(100vw / 8);
+        margin-left: calc(100vw / 15);
     }
 }
 
 @media screen and (min-width: 1024px) {
      #center-iw {
-        margin: 0 calc(100vw / 6)!important;
+        margin: 0 calc(100vw / 15)!important;
     }
     .customize-controls {
-        margin-left: calc(100vw / 6);
+        margin-left: calc(100vw / 15);
     }
 }
 

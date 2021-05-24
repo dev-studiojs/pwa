@@ -1,151 +1,18 @@
+@import '~assets/fonts/DIN2014/stylesheet.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    /* @font-face {
-        font-family: geograph;
-        src: url(~assets/fonts/test-geograph-regular-italic.woff) format('woff');
-             font-weight: 400;
-             font-display: swap;
-             font-style: italic;
-      } */
-    @font-face {
-        font-family: 'geograph';
-        font-weight: 400;
-        src: url('~assets/fonts/test-geograph-regular.woff') format('woff');
-      }
-    @font-face {
-        font-family: 'geograph-medium';
-        font-weight: 500;
-        src: url('~assets/fonts/test-geograph-medium.woff') format('woff');
-      }
-    /* @font-face {
-        font-family: 'signifier-light';
-        src: url('~assets/fonts/test-signifier-light-italic.woff') format('woff');
-             font-weight: 300;
-             font-display: swap;
-             font-style: italic;
-      } */
-    @font-face {
-        font-family: 'signifier-light';
-        font-weight: 300;
-        src: url('~assets/fonts/test-signifier-light.woff') format('woff');
-      }
-    @font-face {
-        font-family: 'signifier';
-        font-weight: 400;
-        src: url('/fonts/test-signifier-regular.woff') format('woff');
-      }
-}
-/* @import '~/assets/css/fonts.css'; */
 
 body {
-    font-family: 'geograph', sans-serif;
-}
-
-.sans-medium {
-    font-family: 'geograph-medium', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    letter-spacing: -0.01em; 
-    @apply font-serif;
+    font-family: 'DIN 2014';
+    font-weight: normal;
 }
 
 .drag-none{
     -webkit-user-drag: none;
   }
-
-
-  .header-hero {
-    height: 400px;
-}
-.swirl-header {
-    width: 120%;
-    opacity: 40%;
-    position: absolute;
-    left: 50%;
-    /* bottom: -140px; */
-    bottom: -140px;
-    transform-origin: center center;
-    transform: rotate(12deg) translateX(-50%);
-}
-
-.blend-overlay {
-    mix-blend-mode: overlay;
-}
-
-@screen md {
-    .header-hero {
-        height: 560px;
-    }
-    .swirl-header {
-        bottom: -280px;
-    }
-}
-@screen lg {
-    .header-hero {
-        height: 640px;
-    }
-    .swirl-header {
-        bottom: -460px;
-    }
-}
-
-
-.dark .dark\:prose-dark blockquote, 
-.dark .dark\:prose-dark strong {
-    @apply text-gd-neutral-dark;
-}
-
-.dark .dark\:prose-dark blockquote {
-    @apply border-gd-neutral-dark;
-}
-
-.dark .dark\:prose-dark hr {
-    @apply border-gd-neutral-dark;
-}
-
-.prose .video-wrapper {
-    @apply rounded-none my-12;
-}
-
-.prose .video-wrapper,
-.prose img {
-    max-width: 110%;
-    margin-left: -5%;
-    margin-right: -5%;
-    @apply rounded-xl;
-}
-
-@screen sm {
-    .prose .video-wrapper {
-        @apply rounded-xl;
-    }
-}
-
-@screen md {
-    .prose .video-wrapper,
-    .prose img {
-        max-width: 120%;
-        margin-left: -10%;
-        margin-right: -10%;
-    }
-
-    .prose .video-wrapper {
-        @apply rounded-xl;
-    }
-}
-
-.overside {
-    @apply -mx-16 font-serif text-4xl leading-normal;
-}
-
-/* .prose em {
-    @apply px-2 py-1 bg-neutral-100 rounded text-neutral-600;
-} */
 
 
 .absolute-center-y {
@@ -158,10 +25,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
   }
 
-  
-blockquote code {
-    font-style: normal!important;
-}
+
 
 .centered {
     top: 50%;
@@ -229,17 +93,4 @@ blockquote code {
     }
 }
 
-.video-wrapper {
-    position: relative;
-    padding-bottom: 65.25%;
-    height: 0;
-    overflow: hidden;
-  }
-  .video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
 

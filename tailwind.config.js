@@ -19,9 +19,7 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['geograph'],
-      serif: ['signifier, serif'],
-      'serif-light': ['signifier-light, serif'],
+      sans: ['DIN 2014'],
     },
     extend: {
       letterSpacing: {
@@ -31,18 +29,18 @@ module.exports = {
         'gd': '1px 1px 4px 0 rgba(0, 0, 0, 0.19)'
       },
       colors: {
-        brand: "hsl(42, 85%, 49%)",
-        'brand-dark': "hsl(42, 85%, 40%)",
+        brand: "#1E2B5A",
+        'brand-dark': "#141D3D",
+        'beige': '#F8F7F4',
         white: "#ffffff",
         black: "#000000",
         gray: colors.trueGray,
-        'gd-yellow': '#E7A613',
-        'gd-yellow-light': '#FAF8F4',
-        'gd-yellow-dark': '#d69a10',
-        'gd-neutral-light': '#a5a5a5',
-        'gd-neutral-medium': '#E8E3D9',
-        'gd-neutral-dark': '#3A3228',
-        'gd-neutral-darker': '#313131',
+        'pw-medium': '#8e95ac',
+        'pw-gray-100': '#efefef',
+        'pw-gray-200': '#a2a2a2',
+        'pw-gray-300': '#454545',
+        'pw-white-50': 'rgba(255,255,255,0.5)',
+        'pw-gray-50': 'rgba(239, 239, 239, 0.5)',
 
       },
       spacing: {

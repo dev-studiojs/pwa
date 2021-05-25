@@ -25,7 +25,7 @@
             <!-- </div> -->
         </div>
         <div class="w-1/2 left h-full flex flex-col justify-center">
-          <h1 class="font-bold text-5xl">Innovative <br class="hidden lg:block"> Equipment Washing</h1>
+          <h1 class="font-bold text-6xl">Innovative <br class="hidden lg:block"> Equipment Washing</h1>
           <p class="max-w-sm mt-6">All-in-one mobile solution for the mining and infrastructure industries.</p>
           <div class="w-full flex items-center my-12">
              <Btn link="/" type="white" arrow class="mr-6">Our Services</Btn>
@@ -53,7 +53,7 @@ export default {
 .video-wrapper {
 transform: scale(1.8);
   top: 32px;
-  right: -50vw; 
+  right: -55vw; 
   @apply z-40;
 }
 video {

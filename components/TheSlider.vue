@@ -3,7 +3,7 @@
     <div class="w-full grid grid-cols-12">
         <div class="col-start-1 lg:col-start-1 col-span-full relative">
             <client-only>
-                <vue-tiny-slider v-bind="tinySliderOptions" id="center" class="flex">
+                <vue-tiny-slider v-bind="tinySliderOptions" id="services" class="flex">
                     <div class="w-1/2 slider-item p-2">
                         <NuxtLink to="/" class="group slider-box drag-none">
                             <h3 class="relative z-10 font-bold text-3xl text-white">Minesite Equipment Washing</h3>
@@ -64,7 +64,7 @@
                     
                 </vue-tiny-slider>
                 <div class="max-w-lg px-8 lg:px-0 mt-20 relative">
-                    <ul id="customize-controls" class="customize-controls flex items-center justify-between">
+                    <ul id="services-controls" class="services-controls flex items-center justify-between">
                         <li class="text-brand cursor-pointer">
                             <svg width="57" height="26" viewBox="0 0 57 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M11.934 1.72954L2.71581 11.5625C2.59069 11.6959 2.48661 11.8433 2.40356 12H56.9998V14H2.40356C2.48661 14.1566 2.59069 14.304 2.71581 14.4375L11.934 24.2704L10.5661 25.7295L1.34794 15.8966C-0.151788 14.2968 -0.151788 11.7031 1.34794 10.1034L10.5661 0.270447L11.934 1.72954Z" fill="currentColor"/>
@@ -77,7 +77,7 @@
                             </svg>
                         </li>
                     </ul>
-                    <ul id="custom-nav" class="absolute ml-12 centered flex items-center">
+                    <ul id="services-nav" class="absolute ml-12 centered flex items-center">
                         <li class="cursor-pointer mx-1.5 text-pw-gray-200"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.72841 7.75736C-0.242152 6.7868 -0.242152 5.2132 0.72841 4.24264L4.24313 0.727922C5.21369 -0.242641 6.78728 -0.242641 7.75785 0.727922L11.2726 4.24264C12.2431 5.2132 12.2431 6.7868 11.2726 7.75736L7.75785 11.2721C6.78728 12.2426 5.21369 12.2426 4.24313 11.2721L0.72841 7.75736Z" fill="currentColor"/>
                         </svg>
@@ -104,8 +104,9 @@ export default {
     data() {
         return {
             tinySliderOptions: {
-                "controlsContainer": "#customize-controls",
-                "navContainer": "#custom-nav",
+                "container": "#services",
+                "controlsContainer": "#services-controls",
+                "navContainer": "#services-nav",
                 "mouseDrag": true,
                 "items": 1,
                 "center": false,
@@ -133,7 +134,7 @@ export default {
 </script>
 
 <style>
-/* #center {
+/* #services {
     transform: translate3d(7.14286%, 0px, 0px)!important;
 } */
 
@@ -147,28 +148,28 @@ export default {
     @apply cursor-pointer w-10 h-10 rounded-md flex items-center justify-center;
 }
 
- #center-iw {
+ #services-iw {
         margin: 0 calc(100vw / 15)!important;
     }
-    .customize-controls {
+    .services-controls {
         margin-left: calc(100vw / 15);
     }
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-   #center-iw {
+   #services-iw {
         margin: 0 calc(100vw / 15)!important;
     }
-    .customize-controls {
+    .services-controls {
         margin-left: calc(100vw / 15);
     }
 }
 
 @media screen and (min-width: 1024px) {
-     #center-iw {
+     #services-iw {
         margin: 0 calc(100vw / 15)!important;
     }
-    .customize-controls {
+    .services-controls {
         margin-left: calc(100vw / 15);
     }
 }

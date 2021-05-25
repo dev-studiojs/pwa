@@ -3,16 +3,9 @@
     <TheHero/>
     <TheIntro/>
     <TheSlider/>
-   <div id="features" class="bg-beige h-screen">
-     <div class="max-w-6xl mx-auto flex item-start">
-       <div class="w-1/2">
-
-       </div>
-       <div class="w-1/2"></div>
-     </div>
-  </div>  
-   <div id="cta"></div>  
-   <div id="clients"></div>  
+    <TheFeatures/>
+    <TheCta/>
+    <TheClients/>
  </div>
 </template>
 

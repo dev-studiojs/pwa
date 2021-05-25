@@ -8,6 +8,7 @@
 body {
     font-family: 'DIN 2014';
     font-weight: normal;
+    @apply text-brand text-lg;
 }
 
 .drag-none{

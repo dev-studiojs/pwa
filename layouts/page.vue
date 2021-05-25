@@ -1,8 +1,8 @@
 <template>
   <div class="relative antialiased font-sans text-gd-neutral-dark overflow-x-hidden">
-    <TheNav buttonType="white"/>
+    <TheNav buttonType="default" class="fixed top-0 w-full bg-white"/>
     <Nuxt />
-    <TheFooter/>
+    <TheFooter class="mt-24"/>
   </div>
 </template>
 

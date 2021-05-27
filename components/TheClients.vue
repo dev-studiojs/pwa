@@ -1,52 +1,31 @@
 <template>
-  <div id="clients" class="pt-36 pb-12 text-center">
-     <h4 class="text-3xl text-semibold mb-6">Trusted by remarkable companies</h4>
+  <div id="clients" class="pt-36 pb-12 text-center px-8">
+     <h4 class="text-xl md:text-3xl text-semibold mb-6">Trusted by remarkable companies</h4>
      <!-- <div class="max-w-6xl mx-auto mb-24"> -->
-            <div class="max-w-6xl mx-auto">
+            <div class="max-w-4xl mx-auto mb-24">
                 <!-- <div class="col-start-1 lg:col-start-1 col-span-full relative"> -->
-                    <client-only>
-                        <vue-tiny-slider v-bind="clientSliderOptions" id="clients" class="flex">
-                            <div class="p-2">
+                        <div class="w-full grid grid-cols-6">
+                            <div class="col-span-2 flex items-center justify-center">
                                 <NuxtLink to="/" class="group drag-none">
-                                    <img :src="require(`~/assets/images/client-logo-1.svg`)" alt="service" class="select-none drag-none">
+                                    <img :src="require(`~/assets/images/anglo_gold_ashanti.png`)" alt="service" class="w-32 md:w-40 select-none drag-none">
                                 </NuxtLink>
                             </div>
-                            <div class="p-2">
+                            <div class="col-span-2 flex items-center justify-center">
                                 <NuxtLink to="/" class="group drag-none">
-                                    <img :src="require(`~/assets/images/client-logo-2.svg`)" alt="service" class="select-none drag-none">
+                                    <img :src="require(`~/assets/images/igo.png`)" alt="service" class="w-16 md:w-24 select-none drag-none">
                                 </NuxtLink>
                             </div>
-                            <div class="p-2">
+                            <div class="col-span-2 flex items-center justify-center">
                                 <NuxtLink to="/" class="group drag-none">
-                                    <img :src="require(`~/assets/images/client-logo-3.svg`)" alt="service" class="select-none drag-none">
-                                </NuxtLink>
-                            </div>
-                            <div class="p-2">
-                                <NuxtLink to="/" class="group drag-none">
-                                    <img :src="require(`~/assets/images/client-logo-4.svg`)" alt="service" class="select-none drag-none">
+                                    <img :src="require(`~/assets/images/goldfields.png`)" alt="service" class="w-32 md:w-40 select-none drag-none">
                                 </NuxtLink>
                             </div>
                            
                            
-                            
-                        </vue-tiny-slider>
-                        <div class="max-w-lg px-8 lg:px-0 mt-20 relative">
-                            <ul id="clients-controls" class="customize-controls flex items-center justify-between">
-                                <li class="text-brand cursor-pointer">
-                                    <svg width="57" height="26" viewBox="0 0 57 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.934 1.72954L2.71581 11.5625C2.59069 11.6959 2.48661 11.8433 2.40356 12H56.9998V14H2.40356C2.48661 14.1566 2.59069 14.304 2.71581 14.4375L11.934 24.2704L10.5661 25.7295L1.34794 15.8966C-0.151788 14.2968 -0.151788 11.7031 1.34794 10.1034L10.5661 0.270447L11.934 1.72954Z" fill="currentColor"/>
-                                    </svg>
-                                </li>
-
-                                <li class="text-brand cursor-pointer">
-                                <svg width="57" height="26" viewBox="0 0 57 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M45.0648 1.72954L54.283 11.5625C54.4081 11.6959 54.5122 11.8433 54.5953 12H-0.000976562V14H54.5953C54.5122 14.1566 54.4081 14.304 54.283 14.4375L45.0648 24.2704L46.4327 25.7295L55.6509 15.8966C57.1506 14.2968 57.1506 11.7031 55.6509 10.1034L46.4327 0.270447L45.0648 1.72954Z" fill="currentColor"/>
-                                    </svg>
-                                </li>
-                            </ul>
                             
                         </div>
-                    </client-only>
+                        
+
                 <!-- </div> -->
             </div>
         <!-- </div> -->

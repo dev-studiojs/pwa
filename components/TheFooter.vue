@@ -5,7 +5,7 @@
         <img class="w-2/3 md:w-1/2 absolute absolute-center-x -top-1/2 md:-top-1/6 z-10" :src="require(`~/assets/images/footer-img.png`)">
       </div>
       <div class="bottom-part bg-brand text-white relative">
-        <div class="absolute -top-16 w-full flex items-center justify-between">
+        <div class="absolute -top-16 mt-px w-full flex items-center justify-between">
           <svg class="w-16" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V72H72C32.2355 72 0 39.7645 0 0Z" fill="#1E2B5A"/>
           </svg>

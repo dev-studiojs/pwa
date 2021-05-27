@@ -1,8 +1,8 @@
 <template>
+            <client-only>
 <div class="mb-24">
     <div class="w-full grid grid-cols-12">
         <div class="col-start-1 lg:col-start-1 col-span-full relative">
-            <client-only>
                 <vue-tiny-slider v-bind="tinySliderOptions" id="services" class="flex">
                     <div class="w-1/2 slider-item p-2">
                         <NuxtLink to="/" class="group slider-box drag-none">
@@ -93,10 +93,10 @@
                    
                     </ul>
                 </div>
-            </client-only>
         </div>
     </div>
 </div>
+            </client-only>
 </template>
 
 <script>

@@ -2,7 +2,7 @@
  <div class="">
     <TheHero/>
     <TheIntro/>
-    <TheSlider/>
+    <!-- <TheSlider/> -->
     <TheFeatures/>
     <TheCta/>
     <TheClients/>

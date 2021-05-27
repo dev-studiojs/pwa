@@ -19,12 +19,12 @@ export default {
 
 <style>
 .default {
-    @apply bg-brand text-white hover:opacity-80;
+    @apply bg-brand text-white hover:bg-brand-dark;
 }
 .white {
-    @apply bg-white text-brand hover:opacity-80;
+    @apply bg-white text-brand hover:bg-gray-200;
 }
 .white-outline {
-    @apply bg-transparent border border-white text-white hover:opacity-80;
+    @apply bg-transparent border border-white text-white hover:bg-brand-dark;
 }
 </style>

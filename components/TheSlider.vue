@@ -1,6 +1,6 @@
 <template>
 <div class="mb-24">
-    <div class="max-w-6xl 2xl:max-w-1440 mx-auto grid grid-cols-12">
+    <div class="w-full left-padding mx-auto grid grid-cols-12">
         <div class="col-start-1 lg:col-start-1 col-span-full relative">
             <client-only>
                 <vue-tiny-slider v-bind="tinySliderOptions" id="services" class="flex pb-8">
@@ -79,7 +79,7 @@
                     </div>
                     
                 </vue-tiny-slider>
-                <div class="max-w-xl px-16 mt-8 relative">
+                <div class="max-w-xl px-16 lg:ml-1/12 2xl:ml-48 mt-8 relative">
                     <ul id="services-controls" class="services-controls flex items-center justify-between">
                         <li class="text-brand cursor-pointer">
                             <svg width="57" height="26" viewBox="0 0 57 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -140,7 +140,25 @@ export default {
                     },
                     "1024": {
                         "items": 3
-                    }
+                    },
+                    "1080": {
+                        "edgePadding": 72,
+                    },
+                    "1280": {
+                        "edgePadding": 72,
+                    },
+                    "1440": {
+                        "edgePadding": 180,
+                    },
+                    "1536": {
+                        "edgePadding": 72,
+                    },
+                    "1600": {
+                        "edgePadding": 200,
+                    },
+                    "1800": {
+                        "edgePadding": 240,
+                    },
                 },
             }
         }

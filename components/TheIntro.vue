@@ -1,6 +1,6 @@
 <template>
     <div id="intro" class="pb-20">
-       <div class="max-w-6xl 2xl:max-w-1440 mx-auto px-8">
+       <div class="max-w-6xl 2xl:max-w-1440 mx-auto px-12 lg:px-16">
           <div class="max-w-xl">
                <div class="font-bold text-6xl text-brand">
                 <h2 class="mb-2">Get in, get out</h2>

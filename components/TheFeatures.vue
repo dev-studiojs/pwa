@@ -1,6 +1,6 @@
 <template>
      <div id="features" class="bg-gradient-to-b from-beige to-white py-24">
-     <div class="max-w-6xl 2xl:max-w-1440 mx-auto flex flex-col md:flex-row item-start px-8">
+     <div class="max-w-6xl 2xl:max-w-1440 mx-auto flex flex-col md:flex-row item-start px-12 lg:px-16">
        <div class="w-full md:w-1/2 pr-8 lg:pr-0">
           <h3 class="font-bold text-5xl lg:max-w-lg">Utilising our high-lift equipment washer</h3>
           <p class="lg:max-w-sm text-pw-medium mt-4">Our mine-equipment washer provides customers with reliable and efficient washing capabilities.</p>

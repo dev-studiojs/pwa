@@ -7,7 +7,7 @@
 
             <img class="absolute -right-1/4 top-0 z-0" :src="require(`~/assets/images/cta-diamond.svg`)">
 
-            <div class="flex flex-col md:flex-row items-center py-28 md:p-28 px-8">
+            <div class="flex flex-col md:flex-row items-center py-28 px-12 lg:px-16">
                 <div class="w-full md:w-2/3 text-center md:text-left">
                     <h3 class="text-4xl">We're here to help</h3>
                     <p class="max-w-lg mx-auto lg:mx-0 mt-4">Got questions? Need advice? Tap into our experience and get specialist advice from our friendly team.</p>

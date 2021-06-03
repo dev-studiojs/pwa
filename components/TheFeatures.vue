@@ -8,10 +8,10 @@
        </div>
        <div class="w-full md:w-1/2 mt-8 md:-mt-6">
         <div class="flex flex-wrap">
-          <FeatureItem icon="icon-01.svg" title="Workplace safe" description="Safety washing with sensors & camera with safety certification"/>
-          <FeatureItem icon="icon-02.svg" title="Restricted access" description="Reliable and efficient washing capability proven over the years"/>
-          <FeatureItem icon="icon-03.svg" title="Height access" description="Reliable and efficient washing capability proven over the years"/>
-          <FeatureItem icon="icon-04.svg" title="Small footprint" description="Safety washing with sensors & camera with safety certification"/>
+          <FeatureItem icon="icon1.png" title="Workplace safe" description="The MEW has been adapted for Australian mining and is Australian Design Rules (ADR) approved with a safety focus that meets AS/NZ and EU standards."/>
+          <FeatureItem icon="icon2.png" title="Restricted access" description="The MEW is fully operational from the basket with complete control of high flow and high pressure water jetting and tramming of the MEW."/>
+          <FeatureItem icon="icon3.png" title="Height access" description="Boom length of 15.5m working height. No platforms/scaffolding means the MEW has a quick set up time."/>
+          <FeatureItem icon="icon4.png" title="Small footprint" description="Drive up alongside any plant or equipment without the need for an outrigger for stability."/>
         </div>
        </div>
      </div>

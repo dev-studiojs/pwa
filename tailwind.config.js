@@ -29,12 +29,12 @@ module.exports = {
         'gd': '1px 1px 4px 0 rgba(0, 0, 0, 0.19)'
       },
       colors: {
-        brand: "#1E2B5A",
-        'brand-dark': "#141D3D",
-        'beige': '#F8F7F4',
         white: "#ffffff",
         black: "#000000",
         gray: colors.trueGray,
+        brand: "#1E2B5A",
+        'brand-dark': "#141D3D",
+        'beige': '#F8F7F4',
         'pw-medium': '#8e95ac',
         'pw-gray-100': '#efefef',
         'pw-gray-200': '#a2a2a2',

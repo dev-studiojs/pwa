@@ -83,11 +83,6 @@ export default {
       }
     ],
     script: [
-      // {
-      //   type: 'text/javascript',
-      //   src: 'js/chatra.js',
-      //   body: true
-      // }
     ]
   },
 
@@ -130,51 +125,11 @@ export default {
   modules: [
     '@nuxt/content',
     'nuxt-webfontloader',
-    // '@nuxtjs/sitemap'
-    // 'nuxt-lazy-load',
-    // 'nuxt-history-state'
-    // ['nuxt-vue-select', {
-    //     OpenIndicator: {
-    //       render: createElement => createElement('span', '🔽'),
-    //     },
-
-    // }]
   ],
 
   colorMode: {
     classSuffix: ''
   },
-
-  // sitemap: {
-  //   hostname: 'https://www.plantwash.com.au/',
-  //   gzip: true,
-  //   defaults: {
-  //     changefreq: 'daily',
-  //     priority: 1,
-  //     lastmod: new Date(),
-  //   },
-  // },
-
-
-  // content: {
-  //   markdown: {
-  //     remarkPlugins: ['remark-emoji'],
-  //     rehypePlugins: ["~/plugins/rehype-content-image.js"],
-  //     prism: {
-  //       theme: false
-  //     }
-  //   },
-  //   highlighter(rawCode, lang) {
-  //     const highlightedCode = highlightjs.highlight(lang, rawCode).value
-
-  //     // We need to create a wrapper, because
-  //     // the returned code from highlight.js
-  //     // is only the highlighted code.
-  //     return `<pre><code class="hljs ${lang}">${highlightedCode}</code></pre>`
-  //   }
-  //   // nestedProperties: ['tags.slug'],
-    
-  // },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -184,28 +139,8 @@ export default {
       ]
     },
   },
-  // googleAnalytics: {
-  //   id: 'G-ZNG9V754J3' // UA-11340695-11
-  // },
+
   webfontloader: {
-    // add Google Fonts as "custom" | workaround required
-    // custom: {
-    //     families: [
-    //         'Inter:n4,n6,n7,n8',
-    //         'Playfair Display:n4',
-    //         'Neue Haas Grotesk Display:n6,n7',
-    //         'Neue Haas Grotesk Text:n4,n5,n7'
-    //     ],
-    //     urls: [
-    //         // for each Google Fonts add url + options you want
-    //         // here add font-display option
-    //         'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap',
-    //         'https://fonts.googleapis.com/css?family=Playfair+Display&display=swap',
-    //         'https://use.typekit.net/eok3igd.css'
-    //     ]
-    // }
-  // google: {
-  //   families: ['Inter:400,600,700,800'] //Loads Lato font with weights 400 and 700
-  // }
+  
 },
 }
